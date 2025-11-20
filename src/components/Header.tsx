@@ -12,7 +12,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>DESIGN<sup>®</sup>  Designer</h1>
+          <h1><sup>®</sup> Chip Architecture </h1>
         </div>
 
         <button className="menu-toggle" onClick={toggleMenu}>

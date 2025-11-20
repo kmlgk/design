@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Home.css';
 
 const Home = () => {
-  const [selectedApp, setSelectedApp] = useState('Mobile');
+  const [selectedApp, setSelectedApp] = useState('Mobile Design');
   const [supplyType, setSupplyType] = useState('DC');
   const [vinMin, setVinMin] = useState('14');
   const [vinMax, setVinMax] = useState('22');
@@ -16,12 +16,12 @@ const Home = () => {
   const [systemSpecsOpen, setSystemSpecsOpen] = useState(false);
 
   const applications = [
-    'Mobile',
-    'PMIC',
-    'Modem',
-    'Automobile',
-    'Server',
-    'Data-Center',
+    'Mobile Design',
+    'PMIC Design',
+    'Modem Design',
+    'AutoMotive Design',
+    'Server Design',
+    'Data-Center Design',
     'Power Design',
     'Sensor Design'
   ];
@@ -53,7 +53,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="hero-section">
-        <h1 className="hero-title">Chip Design Architecture (CDA) - Power Designer</h1>
+        <h1 className="hero-title">Chip Design Architecture (CDA) </h1>
         <p className="hero-description">
           DESIGN<sup>®</sup> Power Designer creates customized power supply circuits based on your application requirements.
           Design optimized power solutions for Mobile, Automotive, Server, and IoT applications with performance and interface targets.
@@ -80,12 +80,12 @@ const Home = () => {
               onClick={() => setSelectedApp(app)}
             >
               <span className="app-icon">
-                {app === 'Mobile' && '📱'}
-                {app === 'PMIC' && '⚡'}
-                {app === 'Modem' && '📡'}
-                {app === 'Automobile' && '🚗'}
-                {app === 'Server' && '🖥️'}
-                {app === 'Data-Center' && '🏢'}
+                {app === 'Mobile Design' && '📱'}
+                {app === 'PMIC Design' && '⚡'}
+                {app === 'Modem Design' && '📡'}
+                {app === 'AutoMotive Design' && '🚗'}
+                {app === 'Server Design' && '🖥️'}
+                {app === 'Data-Center Design' && '🏢'}
                 {app === 'Power Design' && '🔋'}
                 {app === 'Sensor Design' && '📊'}
               </span>
