@@ -55,7 +55,7 @@ const Home = () => {
       <div className="hero-section">
         <h1 className="hero-title">Chip Design Architecture (CDA) - Power Designer</h1>
         <p className="hero-description">
-          WEBENCH<sup>®</sup> Power Designer creates customized power supply circuits based on your application requirements.
+          DESIGN<sup>®</sup> Power Designer creates customized power supply circuits based on your application requirements.
           Design optimized power solutions for Mobile, Automotive, Server, and IoT applications with performance and interface targets.
           <a href="#learn" className="learn-more"> Learn more</a>
         </p>
